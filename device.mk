@@ -413,7 +413,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    AOSPASpesFrameworksOverlay \
+    P404SpesFrameworks \
     SpesCarrierConfigOverlay \
     SpesFrameworksOverlay \
     SpesSettingsOverlay \
