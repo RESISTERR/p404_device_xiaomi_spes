@@ -185,6 +185,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.quick.charge=1 \
     ro.charger.disable_init_blank=true
 
+# Codec2
+PRODUCT_PACKAGES += \
+    libcodec2_vndk.vendor
+
 # Consumer IR
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
